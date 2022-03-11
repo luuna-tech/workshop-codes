@@ -1,0 +1,45 @@
+{
+  "title": "Luuna.mx",
+  "children": [
+    {
+      "title": "Colchones",
+      "products": [
+        {
+          "title": "Colchón Luuna Original",
+          "image": "luuna_original.png",
+          "basePrice": 16179.0,
+          "promoPrice": 14998.0
+        },
+        {
+          "title": "Colchón Luuna One",
+          "image": "luuna_one.png",
+          "basePrice": 27269.0,
+          "promoPrice": 14998.0
+        }
+      ]
+    },
+    {
+      "title": "Muebles",
+      "children": [
+        {
+          "title": "Camas y bases",
+          "image": "camas_bases.png",
+          "products": [
+            {
+              "title": "Base Jalisco",
+              "image": "base_jalisco.png",
+              "basePrice": 7270.91,
+              "promoPrice": 3999.0
+            },
+            {
+              "title": "Base Condesa",
+              "image": "luuna_one.png",
+              "basePrice": 27269.0,
+              "promoPrice": 14998.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Colchones",
+    "subcategorySubChildren": [
+      {
+        "name": "Colchón Luuna Original",
+        "image": "luuna_original.png",
+        "priceWithoutDiscount": 16179.0,
+        "price": 14998.0,
+        "currency": "MXN"
+      },
+      {
+        "name": "Colchón Luuna One",
+        "image": "luuna_one.png",
+        "priceWithoutDiscount": 27269.0,
+        "price": 14998.0,
+        "currency": "MXN"
+      }
+    ]
+  },
+  {
+    "name": "Muebles",
+    "subcategory": [
+      {
+        "name": "Camas y bases",
+        "image": "camas_bases.png",
+        "subcategorySubChildren": [
+          {
+            "name": "Base Jalisco",
+            "image": "base_jalisco.png",
+            "priceWithoutDiscount": 7270.91,
+            "price": 3999.0,
+            "currency": "MXN"
+          },
+          {
+            "name": "Base Condesa",
+            "image": "luuna_one.png",
+            "priceWithoutDiscount": 27269.0,
+            "price": 14998.0,
+            "currency": "MXN"
+          }
+        ]
+      }
+    ]
+  }
+]
