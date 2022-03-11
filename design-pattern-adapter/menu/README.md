@@ -6,17 +6,22 @@ Otro problema que enfrentamos al implementar el nuevo backend (ZeCore) en el web
 2. Subcategoría (subcategory)
 3. Productos (subcategorySubChildren)
 
-Es decir:
+Llamaremos a este modelo el `threeLevelMenu`:
 
+![ThreeLevel](threeLevelMenu.png)
 
-En el nuevo esquema tenemos un menú que puede tener cualquier número de niveles, y los productos son una propiedad del 
+En el nuevo esquema tenemos un menú que puede tener cualquier número de niveles, todos los niveles son instancias de la misma clase `Category` y los productos son una propiedad opcional del objeto `Category`, este modelo lo llamaremos `treeMenu`:
 
+![TreeMenu](treeMenu.png)
 
 ## Ejercicio
 
 Crear un adaptador que tome un objeto `treeMenu` y lo transforme para que implemente la interfaz `threeLevelMenu`.
 
 Se proveen los ejemplos como JSON, puedes implementarlo en el lenguaje que prefieras.
+
+* [Interfaz esperado](threeLevelMenu.json)
+* [Objeto a adaptar](treeMenu.json)
 
 ### Notas:
 
